@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+    /* overflow: hidden; */
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 30px;
+background-color: black;
+color: white;
+}
+
+.logo{
+    width: 30%;
+    /* background-color: rebeccapurple; */
+}
+
+.logo a .img{
+    height: 80px;
+    background-size: cover;
+}
+
+.menu{
+    width: 60%;
+}
+
+.menu ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuList{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-img{
+    background-image: url("/img/bgXX.jpg");
+background-size: cover;
+height: 100vh;
+width: 100vw;
+/* position: absolute; */
+}
+
+.hero-description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   top: 20%;
+}
+
+.hero-description h1{
+    color: #ff8c00;
+    font-size: 12vh;
+
+}
+.hero-description h2{
+    color: #008080;
+    font-size: 7vh;
+}
+
+.hero-description button{
+    /* background-color: red; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: 700;
+    margin-top: 1vh;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.hero-description button:hover{
+ 
+
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #ff8c00;
+}
+
+.welcome{
+    /* color: rebeccapurple; */
+    text-align: center;
+    margin-top: 5vh;
+    background-color: black;
+    padding: 20px;
+    
+
+
+}
+
+.welcome-detail{
+    width: 90%;
+    margin: auto;
+}
+
+.welcome h1{
+    font-size: 10vh;
+    text-transform: uppercase;
+}
+
+.welcome span{
+    font-size: 3vh;
+    color: #ff8c00;
+   
+}
+
+.info-para{
+    color: white;
+    text-wrap: wrap;
+    margin-top: 5vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.bcs-address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+
+.counter-div{
+/* background-color: #fff; */
+display: flex;
+justify-content: space-around;
+margin-top: 5vh;
+text-align: center;
+align-items: center;
+}
